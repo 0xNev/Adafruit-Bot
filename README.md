@@ -1,4 +1,4 @@
-# Adafruit
+# Adafruit Bot
 
 Auto-checkout tool to purchase products on Adafruit.com
 
