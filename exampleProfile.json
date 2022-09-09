@@ -1,0 +1,25 @@
+{
+    "email": "JohnDoe@endpoint.onl",
+    "phone": "5151231234",
+    "cardHolder": "John Doe",
+    "cardNum": "1234 1234 1234 1234",
+    "cvv": "444",
+    "expmonth": "11",
+    "expyear": "27",
+    "billing": {
+       "firstName": "John",
+       "lastName": "Doe",
+       "address1": "123 Main st",
+       "address2": "",
+       "state": {
+          "short": "NY",
+          "long": "New York"
+       },
+       "city": "New York",
+       "country": {
+          "short": "US",
+          "long": "United States"
+       },
+       "zip": "12345"
+    }
+  }
