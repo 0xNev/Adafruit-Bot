@@ -534,10 +534,6 @@ func FinalizeOrder(t *task, csrf_token string) error {
 
 	defer resp.Body.Close()
 
-	respBody, _ := ioutil.ReadAll(resp.Body)
-
-	fmt.Println(string(respBody))
-
 	Emit("Check email", "g")
 
 	return nil
