@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-func instance() {
+func start() {
 
 	//Create new task
 	t := &task{
@@ -543,7 +543,7 @@ func FinalizeOrder(t *task, csrf_token string) error {
 	return nil
 }
 
-func main() {
+func start() {
 	instance()
 
 }
