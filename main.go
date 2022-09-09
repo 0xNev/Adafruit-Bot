@@ -543,7 +543,7 @@ func FinalizeOrder(t *task, csrf_token string) error {
 	return nil
 }
 
-func start() {
-	instance()
+func main() {
+	start()
 
 }
